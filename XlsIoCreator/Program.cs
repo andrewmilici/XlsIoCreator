@@ -58,7 +58,8 @@ namespace XlsIoCreator
 
     public class Customer
     {
-        [Display(DisplayName ="DAte of Birth")]
+        [Display(DisplayName ="Date of Birth")]
+        
         public DateTime? DateOfBirth { get; set; }
         public string EmailAddress { get; set; }
         public string FirstName { get; set; }

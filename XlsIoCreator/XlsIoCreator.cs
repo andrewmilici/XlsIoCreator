@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace XlsIoCreator
 {
-    public static class XlsIoCreater
+    public static class XlsIoCreator
     {
         private static IWorkbook GetWorkbook<T>(List<T> list, IApplication application)
         {
